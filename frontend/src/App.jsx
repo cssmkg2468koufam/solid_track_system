@@ -5,8 +5,8 @@ import Home from './pages/Home/Home'
 import Cart from './pages/Cart/Cart'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Products from './pages/Products/Products'
-import Product_Details from './pages/Product_Details/Product_details'
 import Login from './pages/Login/Login'
+import ProductDetails from './pages/Product_Details/Product_Details';
 import Register from './pages/Register/Register'
 import Footer from './components/Footer/Footer'
 
@@ -26,7 +26,7 @@ const App = () => {
             <Route path='/cart' element={<Cart/>}/>
             <Route path='/order' element={<PlaceOrder/>}/>
             <Route path="/products" element={<Products />} />
-            <Route path="/product/:id" element={<Product_Details />} /> {/* Updated to match the parameter name in the ProductDetails component */}
+            <Route path="/product/:id" element={<ProductDetails />} />
             <Route path='/login' element={<Login/>}/>
             <Route path='/register' element={<Register/>}/>
           </Routes>

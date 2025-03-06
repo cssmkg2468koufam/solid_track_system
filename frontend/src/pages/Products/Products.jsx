@@ -19,7 +19,7 @@ const Products = () => {
     {
       id: 1,
       name: 'Flower Pots FP01',
-      price: 10,
+      price: 1000,
       description: 'Versatile concrete mix suitable for general construction projects.',
       image: flowerpots_1,
       type: 'Flower Pot',
@@ -29,7 +29,7 @@ const Products = () => {
     {
       id: 2,
       name: 'Flower Pots FP02',
-      price: 18,
+      price: 1800,
       description: 'Superior strength concrete for load-bearing structures.',
       image: flowerpots_6,
       type: 'Flower Pot',
@@ -39,7 +39,7 @@ const Products = () => {
     {
       id: 3,
       name: 'Flower Pots FP03',
-      price: 16,
+      price: 1600,
       description: 'Specialized mix for decorative elements and finishing.',
       image: flowerpots_7,
       type: 'Flower Pot',
@@ -49,7 +49,7 @@ const Products = () => {
     {
       id: 4,
       name: 'Flower Pots FP04',
-      price: 24,
+      price: 2400,
       description: 'Rapid-setting formula for time-sensitive construction needs.',
       image: flowerpots_8,
       type: 'Flower Pot',
@@ -59,7 +59,7 @@ const Products = () => {
     {
       id: 5,
       name: 'Lamppost L01',
-      price: 22,
+      price: 5000,
       description: 'Enhanced durability with integrated fiber reinforcement.',
       image: lampposts,
       type: 'Lamppost',
@@ -69,7 +69,7 @@ const Products = () => {
     {
       id: 6,
       name: 'Lamppost L02',
-      price: 28,
+      price: 5000,
       description: 'Water-resistant formula for foundations and water features.',
       image: lampposts,
       type: 'Lamppost',
@@ -79,7 +79,7 @@ const Products = () => {
     {
       id: 7,
       name: 'Waterlili W01',
-      price: 28,
+      price: 3000,
       description: 'Water-resistant formula for foundations and water features.',
       image: waterlili,
       type: 'Waterlili',
@@ -89,7 +89,7 @@ const Products = () => {
     {
       id: 8,
       name: 'Waterlili W02',
-      price: 28,
+      price: 2800,
       description: 'Water-resistant formula for foundations and water features.',
       image: waterlili,
       type: 'Waterlili',
@@ -99,7 +99,7 @@ const Products = () => {
     {
       id: 9,
       name: 'Interlock IL01',
-      price: 28,
+      price: 280,
       description: 'Water-resistant formula for foundations and water features.',
       image: pavers_2,
       type: 'Interlock Paver',
@@ -109,7 +109,7 @@ const Products = () => {
     {
       id: 10,
       name: 'Interlock IL02',
-      price: 28,
+      price: 280,
       description: 'Water-resistant formula for foundations and water features.',
       image: pavers_3,
       type: 'Interlock Paver',
@@ -119,7 +119,7 @@ const Products = () => {
     {
       id: 11,
       name: 'Interlock IL03',
-      price: 28,
+      price: 280,
       description: 'Water-resistant formula for foundations and water features.',
       image: pavers_4,
       type: 'Interlock Paver',
@@ -129,7 +129,7 @@ const Products = () => {
     {
       id: 12,
       name: 'Concrete Ring',
-      price: 28,
+      price: 4000,
       description: 'Water-resistant formula for foundations and water features.',
       image: concrete_rings,
       type: 'Concrete Ring',
@@ -200,7 +200,7 @@ const Products = () => {
                 <div className="product-details">
                   <h3>{product.name}</h3>
                   <p>{product.description}</p>
-                  <div className="product-price">${product.price}</div>
+                  <div className="product-price">Rs. {product.price}</div>
                 </div>
               </Link>
             ))}
